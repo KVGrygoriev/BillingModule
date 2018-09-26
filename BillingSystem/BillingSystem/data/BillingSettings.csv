@@ -1,0 +1,11 @@
+Connection_Cost=33
+Cost_Inside_Network_Calls=50
+Cost_Outside_Network_Calls=95
+Free_Time_In_Network=00:30:00
+Free_Time_Expiry_Period_In_Days=30
+Free_Time_In_Each_Weekend_Call=00:05:00
+Monetization_Time=00:00:00
+Home_Operator_Codes=050;066;095;099
+Incoming_Log=data/IncomingLog.csv
+Incoming_Account_Info=data/IncomingAccountsInfo.csv
+Outcoming_Account_Info=data/OutcomingAccountsInfo.csv

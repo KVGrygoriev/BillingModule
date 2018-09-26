@@ -1,0 +1,1 @@
+..\Additions\cxxtest-4.4\bin\cxxtestgen --runner=ParenPrinter -o MyTestSuite.cxx MyTestSuite.h

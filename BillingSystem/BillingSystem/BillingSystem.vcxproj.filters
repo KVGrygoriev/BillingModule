@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{d66eedea-047f-4a91-9fd5-acaae3e10c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{3b1a3654-ba64-4564-abef-5d3f8c502f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{b4e98a75-7c99-4ef7-8f72-b722ee75a33d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CommonUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Definitions.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Global.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CsvBillingSettingsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CsvCallRecordManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IBillingSettingsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ICallRecordManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BillingValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CallRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CsvFilesHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PhoneNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReckoningModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CsvBillingSettingsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CsvCallRecordManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BillingSystemApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CallRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommonUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhoneNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReckoningModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
